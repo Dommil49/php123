@@ -83,7 +83,19 @@ if($liczbaUsera < $liczbaUsera2 && $liczbaUsera3) {
 
 echo "\n";
 
+echo "czy sa wsrod 3 liczb choc 2 takie same?\n";
 
+echo "\n";
+
+if($liczbaUsera == $liczbaUsera2 && $liczbaUsera3) {
+    echo "tak, sa conajmniej 2 liczby o takich samych wartosciach\n";
+} elseif($liczbaUsera2 == $liczbaUsera && $liczbaUsera3) {
+    echo "tak, sa conajmniej 2 liczby o takich samych wartosciach\n";
+} elseif($liczbaUsera3 == $liczbaUsera && $liczbaUsera2) {
+    echo "tak, sa conajmniej 2 liczby o takich samych wartosciach\n";
+} else {
+    echo "nie, nie ma conajmniej 2 liczb o takich samych wartosciach\n";
+}
 
 
 
