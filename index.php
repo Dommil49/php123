@@ -8,9 +8,7 @@
 </head>
 <body>
     
-    <?php
-        require_once("skrypt.php");
-    ?>
+test
 
 </body>
 </html>
